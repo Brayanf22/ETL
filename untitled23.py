@@ -1,5 +1,5 @@
 import pandas as pd
-from IPython.display import display
+
 
 def transform_and_show(url):
     # Leer los datos desde la URL
