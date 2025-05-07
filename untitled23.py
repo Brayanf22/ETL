@@ -1,6 +1,5 @@
 import pandas as pd
-from google.colab import files
-from IPython.display import display
+
 
 def transform_and_save(url):
     # Extracción
