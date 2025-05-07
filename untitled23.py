@@ -1,6 +1,5 @@
 import pandas as pd
 
-import display
 def transform_and_show(url):
     # Leer los datos desde la URL
     try:
@@ -19,8 +18,8 @@ def transform_and_show(url):
     if 'month_of_release' in df.columns:
         df['month_of_release'] = 2025
 
-    # Mostrar solo la tabla final transformada
-    display(df.head())
+    # Mostrar las primeras 5 filas transformadas
+    print(df.head())
 
 # Ejecutar
 url = "https://www.stats.govt.nz/assets/Uploads/International-migration/International-migration-February-2025/Download-data/international-migration-february-2025-estimated-migration-by-age-sex.csv"
