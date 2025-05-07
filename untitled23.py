@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1T7GPpW79U6UINKJUvl7BkbUrInFN20SP
 """
 
-pip install pandas
+
 
 import pandas as pd
 from google.colab import files
